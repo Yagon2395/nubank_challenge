@@ -1,0 +1,44 @@
+name: nubank_challenge
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dartz: ^0.10.1
+  dio: ^5.0.3
+  get_it: ^7.2.0
+  flutter_bloc: ^8.1.2
+  equatable: ^2.0.5
+  shimmer: ^3.0.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  mocktail: ^1.0.0
+  bloc_test: ^9.1.1
+
+flutter:
+  uses-material-design: true
+  assets: 
+    - assets/fonts/
+
+  fonts:
+    - family: Graphik
+      fonts:
+        - asset: assets/fonts/Graphik-Light.otf
+          weight: 300
+        - asset: assets/fonts/Graphik-Regular.otf
+          weight: 400
+        - asset: assets/fonts/Graphik-Medium.otf
+          weight: 500
+        - asset: assets/fonts/Graphik-Bold.otf
+          weight: 700
+
+
